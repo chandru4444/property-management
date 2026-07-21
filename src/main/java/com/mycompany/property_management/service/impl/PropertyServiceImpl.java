@@ -84,8 +84,7 @@ propertyDTO  =propertyConverter.convertEntityTODTO(pe);
            pe.setTitle(propertyDTO.getTitle());
            pe.setDescription(propertyDTO.getDescription());
            pe.setAddress(propertyDTO.getAddress());
-           pe.setOwnerName(propertyDTO.getOwnerName());               //Our DTO Giving objects But our repository Taking entities. So we have to convert it. this convertion we do is called ADAPTER DESIGN PATTERN
-           pe.setOwnerEmail(propertyDTO.getOwnerEmail());
+
            pe.setPrice(propertyDTO.getPrice());
 
            dto=propertyConverter.convertEntityTODTO(pe);

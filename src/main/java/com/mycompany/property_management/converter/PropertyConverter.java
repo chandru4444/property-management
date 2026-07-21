@@ -15,8 +15,7 @@ public class PropertyConverter {
         pe.setTitle(propertyDTO.getTitle());
         pe.setDescription(propertyDTO.getDescription());
         pe.setAddress(propertyDTO.getAddress());
-        pe.setOwnerName(propertyDTO.getOwnerName());               //Our DTO Giving objects But our repository Taking entities. So we have to convert it. this convertion we do is called ADAPTER DESIGN PATTERN
-        pe.setOwnerEmail(propertyDTO.getOwnerEmail());
+
         pe.setPrice(propertyDTO.getPrice());
 
 
@@ -32,8 +31,7 @@ public class PropertyConverter {
         propertyDTO.setTitle(propertyEntity.getTitle());
         propertyDTO.setDescription(propertyEntity.getDescription());
         propertyDTO.setAddress(propertyEntity.getAddress());
-        propertyDTO.setOwnerName(propertyEntity.getOwnerName());               //Our DTO Giving objects But our repository Taking entities. So we have to convert it. this convertion we do is called ADAPTER DESIGN PATTERN
-        propertyDTO.setOwnerEmail(propertyEntity.getOwnerEmail());
+
         propertyDTO.setPrice(propertyEntity.getPrice());
 
             return propertyDTO;

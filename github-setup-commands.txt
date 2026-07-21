@@ -1,0 +1,18 @@
+GITHUB AND GIT
+
+
+
+
+
+
+
+
+1. git init
+
+2. git add
+
+3. git commit -m "hjrtfhyui"
+
+4.git remote set-url origin https://github.com/chandru4444/property-management.git
+5. and push
+6 give username and when it ask password give token

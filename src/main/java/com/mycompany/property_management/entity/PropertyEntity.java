@@ -23,9 +23,7 @@ public class PropertyEntity {
 
     private String title;
     private String description;
-    private String ownerName;
-    @Column(name = "MAIL",nullable = true)
-    private String ownerEmail;
+
     private String address;
     private  Double price;
 
